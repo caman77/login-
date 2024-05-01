@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Ropa</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: white;
+            font-size: 24px;
+        }
+
+        .inventory-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+
+        table {
+            width: 100%;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #007bff;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="inventory-container">
+        <h1>Inventario de Ropa</h1>
+        <table>
+            <tr>
+                <th>Nombre del producto</th>
+                <th>Cantidad</th>
+                <th>Proveedor</th>
+                <th>Fecha de recepción</th>
+                <th>Precio de coste</th>
+            </tr>
+            <tr>
+                <td>Camiseta a rayas</td>
+                <td>50</td>
+                <td>RopaFashion S.A.</td>
+                <td>2024-04-06</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td>Pantalón vaquero</td>
+                <td>30</td>
+                <td>ModaJeans Ltd.</td>
+                <td>2024-04-06</td>
+                <td>$25.00</td>
+            </tr>
+            <!-- Agrega más filas según tus necesidades -->
+        </table>
+    </div>
+</body>
+</html>
